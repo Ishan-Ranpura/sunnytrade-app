@@ -15,6 +15,7 @@
 		EBED76521E9976110086CBF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBED76501E9976110086CBF7 /* LaunchScreen.storyboard */; };
 		EBED765D1E9976110086CBF7 /* SunnyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED765C1E9976110086CBF7 /* SunnyProjectTests.swift */; };
 		EBED76681E9976110086CBF7 /* SunnyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED76671E9976110086CBF7 /* SunnyProjectUITests.swift */; };
+		EBED76761E9979CF0086CBF7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBED76751E9979CF0086CBF7 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EBED76631E9976110086CBF7 /* SunnyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBED76671E9976110086CBF7 /* SunnyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyProjectUITests.swift; sourceTree = "<group>"; };
 		EBED76691E9976110086CBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBED76751E9979CF0086CBF7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EBED76471E9976110086CBF7 /* FirstViewController.swift */,
 				EBED76491E9976110086CBF7 /* SecondViewController.swift */,
 				EBED764B1E9976110086CBF7 /* Main.storyboard */,
+				EBED76751E9979CF0086CBF7 /* LoginViewController.swift */,
 				EBED764E1E9976110086CBF7 /* Assets.xcassets */,
 				EBED76501E9976110086CBF7 /* LaunchScreen.storyboard */,
 				EBED76531E9976110086CBF7 /* Info.plist */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					EBED76411E9976110086CBF7 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GR28FH2L45;
 						ProvisioningStyle = Automatic;
 					};
 					EBED76571E9976110086CBF7 = {
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBED76761E9979CF0086CBF7 /* LoginViewController.swift in Sources */,
 				EBED764A1E9976110086CBF7 /* SecondViewController.swift in Sources */,
 				EBED76461E9976110086CBF7 /* AppDelegate.swift in Sources */,
 				EBED76481E9976110086CBF7 /* FirstViewController.swift in Sources */,
@@ -418,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GR28FH2L45;
 				INFOPLIST_FILE = SunnyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = owner.SunnyProject;
@@ -430,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GR28FH2L45;
 				INFOPLIST_FILE = SunnyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = owner.SunnyProject;
